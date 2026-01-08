@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Raleway, sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -12,14 +12,16 @@ ul {
   list-style: none;
 }
 
-.btn:hover,
 .contacts a:hover {
   color: #4d5ae5;
 }
 
-.btn:focus,
 .contacts a:focus {
   color: #404bbf;
+}
+
+.btn:focus {
+  background-color: #404bbf;
 }
 
 .btn {
@@ -41,6 +43,7 @@ ul {
   font-size: 18px;
   font-weight: 700;
   color: #2e2f42;
+  text-transform: uppercase;
 }
 
 .logo-part {
